@@ -72,6 +72,7 @@ function DetailView() {
           />
         </div>
         <div className="col-md-8">
+         <h5>{item.url}</h5>
           <h6>{item.promt}</h6>
           <button className="btn btn-info mt-3 me-2" onClick={handleCopy}>
             Copy Promt
